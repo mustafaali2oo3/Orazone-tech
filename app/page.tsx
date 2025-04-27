@@ -70,8 +70,8 @@ export default function Home() {
               <Image
                 src="/Logo.png" // Path to your logo in public folder
                 alt="Company Logo" // Descriptive alt text
-                width={120} // Adjust to your logo's width
-                height={30} // Adjust to your logo's height
+                width={110} // Adjust to your logo's width
+                height={20} // Adjust to your logo's height
                 className="h-auto object-contain" // Maintain aspect ratio
                 priority // Important for above-the-fold logo
               />
