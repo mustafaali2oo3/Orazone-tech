@@ -85,8 +85,8 @@ export default function Home() {
         <div className="absolute top-0 right-0 h-full w-16 bg-orange-500"></div>
       </header>
 
-      {/* Hero Section */}
-      <section className="relative bg-blue-900 text-white overflow-hidden">
+      {/* Extended Hero Section */}
+      <section className="relative bg-blue-900 text-white overflow-hidden min-h-[70vh]">
         <div
           className="absolute inset-0 z-0 bg-cover bg-center"
           style={{
@@ -95,7 +95,7 @@ export default function Home() {
         ></div>
         <div className="absolute inset-0 z-0 bg-gradient-to-r from-blue-900/60 to-purple-900/60"></div>
 
-        <div className="container mx-auto relative z-10 py-60">
+        <div className="container mx-auto relative z-10 py-32 h-full flex items-center">
           <div className="max-w-2xl">
             <h1 className="text-5xl font-bold mb-2">Orazone Technologies</h1>
             <p className="text-xl mb-16">Diversified Business Solutions</p>
@@ -117,8 +117,8 @@ export default function Home() {
         ></div>
       </section>
 
-      {/* Content Area */}
-      <section className="flex-grow py-16">
+      {/* Smaller Content Area */}
+      <section className="py-8">
         <div className="container mx-auto">
           <p className="text-gray-600">enter text here</p>
         </div>
