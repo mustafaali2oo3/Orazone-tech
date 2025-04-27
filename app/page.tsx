@@ -85,7 +85,7 @@ export default function Home() {
         <div className="absolute top-0 right-0 h-full w-16 bg-orange-500"></div>
       </header>
 
-  {/* Extended Hero Section */}
+{/* Extended Hero Section */}
 <section className="relative bg-blue-900 text-white overflow-hidden min-h-[50vh]">
   <div
     className="absolute inset-0 z-0 bg-cover bg-center"
