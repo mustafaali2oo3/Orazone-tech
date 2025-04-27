@@ -134,10 +134,18 @@ export default function Home() {
 
       {/* Content Area */}
       <section className="py-8 flex justify-center items-center h-[60vh] bg-gray-100">
-        <div className="container mx-auto text-center">
-          <p className="text-2xl text-gray-600">Enter text here or any additional content you'd like to display.</p>
-        </div>
-      </section>
+          <div className="container mx-auto text-center px-4">
+            <h1 className="text-4xl font-bold text-gray-800 mb-4">
+              Empowering Businesses with Smart Solutions Since 2008
+            </h1>
+            <p className="text-lg text-gray-600 mb-2">
+              At Orazone Technologies, we believe in turning visions into reality. Established in 2008, we are a premier call center and software development company dedicated to delivering innovative, reliable, and scalable solutions to clients worldwide.
+            </p>
+            <p className="text-lg text-gray-600">
+              With over a decade of experience, we’ve built a reputation for excellence across diverse industries — from customer support services to cutting-edge software products. Our dynamic team combines technical expertise with business insights to help you achieve your goals efficiently and effectively.
+            </p>
+          </div>
+        </section>
 
       {/* Footer */}
       <footer className="bg-blue-900 text-white relative overflow-hidden py-16">
