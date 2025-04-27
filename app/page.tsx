@@ -60,11 +60,20 @@ export default function Home() {
 
   return (
     <div className="flex flex-col min-h-screen">
-     {/* Header */}
-<header className="relative border-b border-gray-100 h-20"> {/* Added h-20 for taller header */}
-  <div className="container mx-auto flex justify-between items-center h-full px-6"> {/* Added h-full and px-6 */}
-    <div className="text-2xl font-bold pl-4"> {/* Added pl-4 for left padding */}
-      Logo
+   {/* Header */}
+<header className="relative border-b border-gray-100 h-20">
+  <div className="container mx-auto flex justify-between items-center h-full px-6">
+    {/* Replace text logo with image logo */}
+    <div className="pl-4">
+      <Link href="/">
+        <Image
+          src="/logo.png" // Path to your logo image
+          alt="Orazone Technologies Logo"
+          width={120} // Set your desired width
+          height={40} // Set your desired height
+          className="h-auto" // Maintain aspect ratio
+        />
+      </Link>
     </div>
     <nav className="hidden md:flex space-x-6">
       <Link href="#" className="text-blue-600 hover:text-blue-800">
