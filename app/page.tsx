@@ -125,36 +125,59 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-blue-900 text-white relative overflow-hidden">
-        <div className="container mx-auto py-12">
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-x-20 gap-y-6 justify-items-center md:justify-items-start">
-            <Link href="#" className="text-lg hover:underline">
-              Home
-            </Link>
-            <Link href="#" className="text-lg hover:underline">
-              Jobs
-            </Link>
-            <Link href="#" className="text-lg hover:underline">
-              LinkedIn
-            </Link>
-            <Link href="#" className="text-lg hover:underline">
-              Contact Us
-            </Link>
-            <Link href="#" className="text-lg hover:underline">
-              Services
-            </Link>
-            <Link href="#" className="text-lg hover:underline">
-              Facebook
-            </Link>
-          </div>
+   {/* Extended Footer */}
+<footer className="bg-blue-900 text-white relative overflow-hidden py-16"> {/* Increased padding */}
+  <div className="container mx-auto">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12"> {/* Changed to 4 columns on medium screens */}
+      <div className="space-y-4">
+        <h3 className="text-xl font-bold">Company</h3>
+        <div className="space-y-2">
+          <Link href="#" className="block text-lg hover:underline">Home</Link>
+          <Link href="#" className="block text-lg hover:underline">About Us</Link>
+          <Link href="#" className="block text-lg hover:underline">Services</Link>
+          <Link href="#" className="block text-lg hover:underline">Our Team</Link>
         </div>
-
-        {/* Diagonal shape */}
-        <div
-          className="absolute bottom-0 left-0 w-1/3 h-16 bg-orange-500"
-          style={{ clipPath: "polygon(0 0, 0% 100%, 100% 100%)" }}
-        ></div>
-      </footer>
+      </div>
+      
+      <div className="space-y-4">
+        <h3 className="text-xl font-bold">Careers</h3>
+        <div className="space-y-2">
+          <Link href="#" className="block text-lg hover:underline">Jobs</Link>
+          <Link href="#" className="block text-lg hover:underline">Internships</Link>
+          <Link href="#" className="block text-lg hover:underline">Culture</Link>
+        </div>
+      </div>
+      
+      <div className="space-y-4">
+        <h3 className="text-xl font-bold">Connect</h3>
+        <div className="space-y-2">
+          <Link href="#" className="block text-lg hover:underline">LinkedIn</Link>
+          <Link href="#" className="block text-lg hover:underline">Facebook</Link>
+          <Link href="#" className="block text-lg hover:underline">Twitter</Link>
+          <Link href="#" className="block text-lg hover:underline">Instagram</Link>
+        </div>
+      </div>
+      
+      <div className="space-y-4">
+        <h3 className="text-xl font-bold">Contact</h3>
+        <div className="space-y-2">
+          <Link href="#" className="block text-lg hover:underline">Contact Us</Link>
+          <Link href="#" className="block text-lg hover:underline">Support</Link>
+          <Link href="#" className="block text-lg hover:underline">FAQ</Link>
+        </div>
+      </div>
     </div>
+
+    <div className="pt-8 border-t border-blue-700 text-center">
+      <p className="text-lg">© {new Date().getFullYear()} Orazone Technologies. All rights reserved.</p>
+    </div>
+  </div>
+
+  {/* Larger Diagonal shape */}
+  <div
+    className="absolute bottom-0 left-0 w-1/3 h-24 bg-orange-500" {/* Increased height */}
+    style={{ clipPath: "polygon(0 0, 0% 100%, 100% 100%)" }}
+  ></div>
+</footer>
   )
 }
