@@ -60,30 +60,32 @@ export default function Home() {
 
   return (
     <div className="flex flex-col min-h-screen">
-      {/* Header */}
-      <header className="relative border-b border-gray-100">
-        <div className="container mx-auto flex justify-between items-center py-4">
-          <div className="text-2xl font-bold">Logo</div>
-          <nav className="hidden md:flex space-x-6">
-            <Link href="#" className="text-blue-600 hover:text-blue-800">
-              Home
-            </Link>
-            <Link href="#" className="text-blue-600 hover:text-blue-800">
-              About Us
-            </Link>
-            <Link href="#" className="text-blue-600 hover:text-blue-800">
-              Services
-            </Link>
-            <Link href="#" className="text-blue-600 hover:text-blue-800">
-              Our Team
-            </Link>
-            <Link href="#" className="text-blue-600 hover:text-blue-800">
-              FAQs
-            </Link>
-          </nav>
-        </div>
-        <div className="absolute top-0 right-0 h-full w-16 bg-orange-500"></div>
-      </header>
+     {/* Header */}
+<header className="relative border-b border-gray-100 h-20"> {/* Added h-20 for taller header */}
+  <div className="container mx-auto flex justify-between items-center h-full px-6"> {/* Added h-full and px-6 */}
+    <div className="text-2xl font-bold pl-4"> {/* Added pl-4 for left padding */}
+      Logo
+    </div>
+    <nav className="hidden md:flex space-x-6">
+      <Link href="#" className="text-blue-600 hover:text-blue-800">
+        Home
+      </Link>
+      <Link href="#" className="text-blue-600 hover:text-blue-800">
+        About Us
+      </Link>
+      <Link href="#" className="text-blue-600 hover:text-blue-800">
+        Services
+      </Link>
+      <Link href="#" className="text-blue-600 hover:text-blue-800">
+        Our Team
+      </Link>
+      <Link href="#" className="text-blue-600 hover:text-blue-800">
+        FAQs
+      </Link>
+    </nav>
+  </div>
+  <div className="absolute top-0 right-0 h-full w-16 bg-orange-500"></div>
+</header>
 
  {/* Extended Hero Section */}
 <section className="relative bg-blue-900 text-white overflow-hidden min-h-[50vh]">
