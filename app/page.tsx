@@ -117,10 +117,10 @@ export default function Home() {
         ></div>
       </section>
 
-      {/* Smaller Content Area */}
-      <section className="py-8">
-        <div className="container mx-auto">
-          <p className="text-gray-600">enter text here</p>
+      {/* Larger Content Area Using Flexbox */}
+      <section className="py-8 flex justify-center items-center h-[60vh] bg-gray-100">
+        <div className="container mx-auto text-center">
+          <p className="text-2xl text-gray-600">Enter text here or any additional content you'd like to display.</p>
         </div>
       </section>
 
