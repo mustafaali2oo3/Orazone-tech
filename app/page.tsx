@@ -70,8 +70,8 @@ export default function Home() {
               <Image
                 src="/Logo.png" // Path to your logo in public folder
                 alt="Company Logo" // Descriptive alt text
-                width={160} // Adjust to your logo's width
-                height={50} // Adjust to your logo's height
+                width={120} // Adjust to your logo's width
+                height={30} // Adjust to your logo's height
                 className="h-auto object-contain" // Maintain aspect ratio
                 priority // Important for above-the-fold logo
               />
@@ -114,7 +114,7 @@ export default function Home() {
     <div className="max-w-2xl pl-8 md:pl-16 lg:pl-24 mt-16"> {/* Added mt-16 here */}
       <h1 className="text-5xl font-bold mb-2">Orazone Technologies</h1>
       <p className="text-xl mb-16">Diversified Business Solutions</p>
-      <div className="flex space-x-18">
+      <div className="flex space-x-22">
         <Link href="#" className="px-6 py-2 rounded-full bg-orange-500 hover:bg-orange-600 transition-colors">
           Contact Us
         </Link>
