@@ -61,41 +61,44 @@ export default function Home() {
 
   return (
     <div className="flex flex-col min-h-screen">
-   {/* Header */}
-<header className="relative border-b border-gray-100 h-20">
-  <div className="container mx-auto flex justify-between items-center h-full px-6">
-    {/* Replace text logo with image logo */}
-    <div className="pl-4">
-      <Link href="/">
-        <Image
-          src="/logo.png" // Path to your logo image
-          alt="Orazone Technologies Logo"
-          width={120} // Set your desired width
-          height={40} // Set your desired height
-          className="h-auto" // Maintain aspect ratio
-        />
-      </Link>
-    </div>
-    <nav className="hidden md:flex space-x-6">
-      <Link href="#" className="text-blue-600 hover:text-blue-800">
-        Home
-      </Link>
-      <Link href="#" className="text-blue-600 hover:text-blue-800">
-        About Us
-      </Link>
-      <Link href="#" className="text-blue-600 hover:text-blue-800">
-        Services
-      </Link>
-      <Link href="#" className="text-blue-600 hover:text-blue-800">
-        Our Team
-      </Link>
-      <Link href="#" className="text-blue-600 hover:text-blue-800">
-        FAQs
-      </Link>
-    </nav>
-  </div>
-  <div className="absolute top-0 right-0 h-full w-16 bg-orange-500"></div>
-</header>
+      {/* Header with Logo Image */}
+      <header className="relative border-b border-gray-100 h-20">
+        <div className="container mx-auto flex justify-between items-center h-full px-6">
+          {/* Logo Image Container */}
+          <div className="pl-4">
+            <Link href="/">
+              <Image
+                src="/logo.png" // Path to your logo in public folder
+                alt="Company Logo" // Descriptive alt text
+                width={160} // Adjust to your logo's width
+                height={50} // Adjust to your logo's height
+                className="h-auto object-contain" // Maintain aspect ratio
+                priority // Important for above-the-fold logo
+              />
+            </Link>
+          </div>
+          
+          {/* Navigation Menu (unchanged) */}
+          <nav className="hidden md:flex space-x-6">
+            <Link href="#" className="text-blue-600 hover:text-blue-800">
+              Home
+            </Link>
+            <Link href="#" className="text-blue-600 hover:text-blue-800">
+              About Us
+            </Link>
+            <Link href="#" className="text-blue-600 hover:text-blue-800">
+              Services
+            </Link>
+            <Link href="#" className="text-blue-600 hover:text-blue-800">
+              Our Team
+            </Link>
+            <Link href="#" className="text-blue-600 hover:text-blue-800">
+              FAQs
+            </Link>
+          </nav>
+        </div>
+        <div className="absolute top-0 right-0 h-full w-16 bg-orange-500"></div>
+      </header>
 
  {/* Extended Hero Section */}
 <section className="relative bg-blue-900 text-white overflow-hidden min-h-[50vh]">
