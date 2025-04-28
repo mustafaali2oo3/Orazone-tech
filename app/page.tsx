@@ -68,7 +68,7 @@ export default function Home() {
           <div className="pl-4">
             <Link href="/">
               <Image
-                src="/Logo.png" // Path to your logo in public folder
+                src="/arozne11.png" // Path to your logo in public folder
                 alt="Company Logo" // Descriptive alt text
                 width={70} // Adjust to your logo's width
                 height={10} // Adjust to your logo's height
