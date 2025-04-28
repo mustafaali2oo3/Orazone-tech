@@ -60,45 +60,45 @@ export default function Home() {
   ]
 
   return (
-    <div className="flex flex-col min-h-screen">
-      {/* Header with Logo Image */}
-      <header className="relative border-b border-gray-100 h-20">
-        <div className="container mx-auto flex justify-between items-center h-full px-6">
-          {/* Logo Image Container */}
-          <div className="pl-4">
-            <Link href="/">
-              <Image
-                src="/arozne11.png" // Path to your logo in public folder
-                alt="Company Logo" // Descriptive alt text
-                width={70} // Adjust to your logo's width
-                height={10} // Adjust to your logo's height
-                className="h-auto object-contain" // Maintain aspect ratio
-                priority // Important for above-the-fold logo
-              />
-            </Link>
-          </div>
-          
-          {/* Navigation Menu (unchanged) */}
-          <nav className="hidden md:flex space-x-6">
-            <Link href="#" className="text-blue-600 hover:text-blue-800">
-              Home
-            </Link>
-            <Link href="#" className="text-blue-600 hover:text-blue-800">
-              About Us
-            </Link>
-            <Link href="#" className="text-blue-600 hover:text-blue-800">
-              Services
-            </Link>
-            <Link href="#" className="text-blue-600 hover:text-blue-800">
-              Our Team
-            </Link>
-            <Link href="#" className="text-blue-600 hover:text-blue-800">
-              FAQs
-            </Link>
-          </nav>
-        </div>
-        <div className="absolute top-0 right-0 h-full w-16 bg-orange-500"></div>
-      </header>
+  <div className="flex flex-col min-h-screen">
+  {/* Header with increased height and adjusted logo */}
+  <header className="relative border-b border-gray-100 h-28"> {/* Increased from h-20 to h-28 */}
+    <div className="container mx-auto flex justify-between items-center h-full px-6">
+      {/* Logo Image Container - adjusted for larger header */}
+      <div className="pl-4">
+        <Link href="/">
+          <Image
+            src="/arozne11.png"
+            alt="Company Logo"
+            width={90}  // Increased from 70 to 90
+            height={90} // Increased from 10 to 90 (maintain aspect ratio)
+            className="h-auto object-contain"
+            priority
+          />
+        </Link>
+      </div>
+      
+      {/* Navigation Menu (unchanged) */}
+      <nav className="hidden md:flex space-x-6">
+        <Link href="#" className="text-blue-600 hover:text-blue-800">
+          Home
+        </Link>
+        <Link href="#" className="text-blue-600 hover:text-blue-800">
+          About Us
+        </Link>
+        <Link href="#" className="text-blue-600 hover:text-blue-800">
+          Services
+        </Link>
+        <Link href="#" className="text-blue-600 hover:text-blue-800">
+          Our Team
+        </Link>
+        <Link href="#" className="text-blue-600 hover:text-blue-800">
+          FAQs
+        </Link>
+      </nav>
+    </div>
+    <div className="absolute top-0 right-0 h-full w-16 bg-orange-500"></div>
+  </header>
 
  {/* Extended Hero Section */}
 <section className="relative bg-blue-900 text-white overflow-hidden min-h-[50vh]">
