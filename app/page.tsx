@@ -99,8 +99,7 @@ export default function Home() {
     </div>
     <div className="absolute top-0 right-0 h-full w-16 bg-orange-500"></div>
   </header>
-
- {/* Extended Hero Section */}
+{/* Extended Hero Section */}
 <section className="relative bg-blue-900 text-white overflow-hidden min-h-[50vh]">
   <div
     className="absolute inset-0 z-0 bg-cover bg-center"
@@ -111,20 +110,21 @@ export default function Home() {
   <div className="absolute inset-0 z-0 bg-gradient-to-r from-blue-900/60 to-purple-900/60"></div>
 
   <div className="container mx-auto relative z-10 h-full flex items-center">
-    <div className="max-w-2xl pl-8 md:pl-16 lg:pl-24 mt-16"> {/* Added mt-16 here */}
+    <div className="max-w-2xl pl-8 md:pl-16 lg:pl-24 mt-16">
       <h1 className="text-5xl font-bold mb-2">Orazone Technologies</h1>
       <p className="text-xl mb-16">Diversified Business Solutions</p>
-      <div className="flex space-x-22">
-        <Link href="#" className="px-6 py-2 rounded-full bg-orange-500 hover:bg-orange-600 transition-colors">
+      <div className="flex space-x-8"> {/* Increased from space-x-22 to space-x-8 (or any value you prefer) */}
+        <Link href="#" className="px-6 py-2 rounded-full bg-orange-500 hover:bg-orange-600 transition-colors mr-4"> {/* Added mr-4 for extra spacing */}
           Contact Us
         </Link>
-        <Link href="#" className="px-6 py-2 rounded-full bg-blue-600 hover:bg-blue-700 transition-colors">
+        <Link href="#" className="px-6 py-2 rounded-full bg-blue-600 hover:bg-blue-700 transition-colors ml-4"> {/* Added ml-4 for extra spacing */}
           Services
         </Link>
       </div>
     </div>
   </div>
-
+</section>
+      
         {/* Diagonal shape */}
         <div
           className="absolute bottom-0 right-0 w-1/2 h-48 bg-orange-500"
