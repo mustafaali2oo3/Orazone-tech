@@ -15,8 +15,8 @@ export default function Home() {
               <Image
                 src="/arozne11.png"
                 alt="Company Logo"
-                width={90}
-                height={88}
+                width={70}
+                height={70}
                 className="h-auto object-contain"
                 priority
               />
