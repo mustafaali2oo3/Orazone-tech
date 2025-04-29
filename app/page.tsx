@@ -46,36 +46,37 @@ export default function Home() {
       </header>
 
       {/* Extended Hero Section */}
-      <section className="relative bg-blue-900 text-white overflow-hidden min-h-[70vh]">
-        <div
-          className="absolute inset-0 z-0 bg-cover bg-center"
-          style={{
-            backgroundImage: "url('/digital-business-background.jpeg')",
-          }}
-        />
-        <div className="absolute inset-0 z-0 bg-gradient-to-r from-blue-900/60 to-purple-900/60" />
+<section className="relative bg-blue-900 text-white overflow-hidden min-h-[70vh]">
+  <div
+    className="absolute inset-0 z-0 bg-cover bg-center"
+    style={{
+      backgroundImage: "url('/digital-business-background.jpeg')",
+    }}
+  />
+  <div className="absolute inset-0 z-0 bg-gradient-to-r from-blue-900/60 to-purple-900/60" />
 
-        <div className="container mx-auto relative z-10 h-full flex items-center">
-          <div className="max-w-2xl pl-8 md:pl-16 lg:pl-24 mt-16">
-            <h1 className="text-5xl font-bold mb-2">Orazone Technologies</h1>
-            <p className="text-xl mb-16">Diversified Business Solutions</p>
-            <div className="flex gap-6">
-              <Link 
-                href="#" 
-                className="px-6 py-2 rounded-full bg-orange-500 hover:bg-orange-600 transition-colors"
-              >
-                Contact Us
-              </Link>
-              <Link 
-                href="#" 
-                className="px-6 py-2 rounded-full bg-blue-600 hover:bg-blue-700 transition-colors"
-              >
-                Services
-              </Link>
-            </div>
-          </div>
-        </div>
-
+  <div className="container mx-auto relative z-10 h-full flex items-center">
+    <div className="max-w-2xl pl-8 md:pl-16 lg:pl-24 mt-32 md:mt-40"> {/* Increased mt value */}
+      <h1 className="text-5xl md:text-6xl font-bold mb-4">Orazone Technologies</h1> {/* Larger text */}
+      <p className="text-xl md:text-2xl mb-16">Diversified Business Solutions</p> {/* Larger subtitle */}
+      <div className="flex gap-6">
+        <Link 
+          href="#" 
+          className="px-6 py-2 rounded-full bg-orange-500 hover:bg-orange-600 transition-colors"
+        >
+          Contact Us
+        </Link>
+        <Link 
+          href="#" 
+          className="px-6 py-2 rounded-full bg-blue-600 hover:bg-blue-700 transition-colors"
+        >
+          Services
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
+      
         {/* Diagonal shape */}
         <div
           className="absolute bottom-0 right-0 w-1/2 h-48 bg-orange-500"
