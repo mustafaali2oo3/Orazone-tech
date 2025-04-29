@@ -106,18 +106,24 @@ export default function Home() {
     style={{
       backgroundImage: "url('/digital-business-background.jpeg')",
     }}
-  ></div>
-  <div className="absolute inset-0 z-0 bg-gradient-to-r from-blue-900/60 to-purple-900/60"></div>
+  />
+  <div className="absolute inset-0 z-0 bg-gradient-to-r from-blue-900/60 to-purple-900/60" />
 
   <div className="container mx-auto relative z-10 h-full flex items-center">
     <div className="max-w-2xl pl-8 md:pl-16 lg:pl-24 mt-16">
       <h1 className="text-5xl font-bold mb-2">Orazone Technologies</h1>
       <p className="text-xl mb-16">Diversified Business Solutions</p>
-      <div className="flex space-x-8"> {/* Increased from space-x-22 to space-x-8 (or any value you prefer) */}
-        <Link href="#" className="px-6 py-2 rounded-full bg-orange-500 hover:bg-orange-600 transition-colors mr-4"> {/* Added mr-4 for extra spacing */}
+      <div className="flex gap-6"> {/* Using gap instead of space-x for better control */}
+        <Link 
+          href="#" 
+          className="px-6 py-2 rounded-full bg-orange-500 hover:bg-orange-600 transition-colors"
+        >
           Contact Us
         </Link>
-        <Link href="#" className="px-6 py-2 rounded-full bg-blue-600 hover:bg-blue-700 transition-colors ml-4"> {/* Added ml-4 for extra spacing */}
+        <Link 
+          href="#" 
+          className="px-6 py-2 rounded-full bg-blue-600 hover:bg-blue-700 transition-colors"
+        >
           Services
         </Link>
       </div>
