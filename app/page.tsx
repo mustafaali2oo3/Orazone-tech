@@ -46,7 +46,7 @@ export default function Home() {
       </header>
 
       {/* Extended Hero Section */}
-      <section className="relative bg-blue-900 text-white overflow-hidden min-h-[50vh]">
+      <section className="relative bg-blue-900 text-white overflow-hidden min-h-[49vh]">
         <div
           className="absolute inset-0 z-0 bg-cover bg-center"
           style={{
