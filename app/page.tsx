@@ -56,7 +56,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0 bg-gradient-to-r from-blue-900/60 to-purple-900/60" />
 
         <div className="container mx-auto relative z-10 h-full flex items-center">
-          <div className="max-w-2xl pl-8 md:pl-16 lg:pl-24 mt-16">
+          <div className="max-w-2xl pl-8 md:pl-16 lg:pl-24 mt-22">
             <h1 className="text-5xl font-bold mb-2">Orazone Technologies</h1>
             <p className="text-xl mb-16">Diversified Business Solutions</p>
             <div className="flex gap-6">
