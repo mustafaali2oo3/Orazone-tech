@@ -16,7 +16,7 @@ export default function Home() {
                 src="/arozne11.png"
                 alt="Company Logo"
                 width={90}
-                height={90}
+                height={88}
                 className="h-auto object-contain"
                 priority
               />
@@ -46,7 +46,7 @@ export default function Home() {
       </header>
 
       {/* Extended Hero Section */}
-      <section className="relative bg-blue-900 text-white overflow-hidden min-h-[49vh]">
+      <section className="relative bg-blue-900 text-white overflow-hidden min-h-[50vh]">
         <div
           className="absolute inset-0 z-0 bg-cover bg-center"
           style={{
