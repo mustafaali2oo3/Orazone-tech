@@ -14,7 +14,7 @@ Any changes you make to your deployed app will be automatically pushed to this r
 
 Your project is live at:
 
-**[https://vercel.com/mustafaali2oo3s-projects/v0-recreate-ui-from-screenshot](https://vercel.com/mustafaali2oo3s-projects/v0-recreate-ui-from-screenshot)**
+**[https://vercel.com/mustafaali2oo3s-projects/v0-recreate-ui-from-screenshot](https://vercel.com/mustafaali2oo3s-projects)**
 
 ## Build your app
 
